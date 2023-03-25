@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background: url(./img/white\ background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black; 
+    transition: .5s ease-in; 
+}
+header nav a:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    transition: .5s ease-in;
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    color: #0905E0;
+}
+header h1 span{
+    color: white;
+    background-color: #0905E0;
+}
+.toggle{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+.hero-blur{
+    display: flex;
+    filter: blur(70px);
+    background-color: white;
+    border: white;
+    width: 40%;
+    height: 65%;
+    border-radius: 50%;
+}
+.hero-content{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;   
+}
+.cheap{
+    font-size: 3vw; 
+}
+.cheap-image{
+    width: 70%;
+}
+.cheap span{
+    font-weight: 900;
+    color: #0905E0;
+}
+.data-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.data-text button{
+    padding: 10px 25px;
+    background-color: #0905E0;
+    border-radius: 15px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.data-text button:hover{
+    background-color: transparent;
+    color: #0905E0;
+    border-color: #0905E0;
+}
+/*==========End of First Section ================*/
+
+.family-bundle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.about-data{
+    display: flex;
+    background-color: #F8F8F8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+.heading h3{
+    font-size: 80px;
+}
+.heading span{
+    color: #0905E0;
+}
+.content{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+}
+.content .content-text{
+    width: 50%;
+}
+.content-text p{
+    text-align: justify;
+    display: flex;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #00000099;
+}
+.image img{
+    width: 100%;
+}
+
+
+/*===========End of Data page=====================*/
+
+.family-bundle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;   
+}
+.data-bundle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.data-bundle h1{
+    font-size: 45px;
+}
+.data-bundle span{
+    color: #0905E0;
+}
+.data-bundle p{
+    text-align: center;
+}
+.net-deco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    /* padding: 0 70px; */
+}
+.network{
+    display: flex;
+    margin-top: 50px;
+    gap: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.mtn-sub img{
+    width: 80%;
+    height: 25vh;
+}
+.mtn-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.glo{
+    background-color: green;
+    width: 80%;
+    padding: 15px 80px;
+    border: 1px solid green;
+}
+.mtn div{
+    display: flex;
+    flex-direction: column;
+}
+.airtel{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.airtel .naija{
+    width: 80%;
+    height: 25vh;
+}
+.airtel .airt{
+    background-color: red;
+    display: flex;
+    width: 80%;
+    height: 25vh;
+    padding: 40px;
+}
+.net-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.bus-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 80%;
+    background-color: #0905E0;
+}
+.bus-page h4{
+    border: 1px solid #FFF;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/Rectangle\ 9.png);
+    width: 80%;
+    height: 60vh;
+}
+.client p, h4{
+    color: white;
+    font-size: large;
+}
+.client h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+.excellent{
+    margin-top: 20vh;
+    text-align: center;
+}
+.excellent h4{
+    font-size: 25px;
+}
+.excellent p{
+    font-size: 25px;
+}
+.excellent span{
+    color: #0905E0;
+}
+.tab{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.tab div{
+    height: 8px;
+    width: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact-here{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: #F9F4F4;
+}
+.contact{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.reach-us span{
+    color: #0905E0;
+}
+.reach-us h1{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#address{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.taiwo div{
+    width: 100%;
+}
+.btn button{
+    margin-bottom: 20px;
+    background-color: white;
+    outline: none;
+    padding: 10px 30px;
+    background-color: #0905E0;
+    border-radius: 15px;
+    transition: .6s ease-in;
+}
+.btn button:hover{
+    background-color: transparent;
+    transition: .6s ease-in;
+    border: 1px solid #0905E0;
+    color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 50px;
+}
+footer div{
+    width: 100%;
+}
+.foot-data{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 900px) {
+    body{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero .data-text{
+        flex-direction: column;
+    }
+    header nav{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        padding: 10px;
+        margin-left: 10rem;
+        cursor: pointer;
+    }
+    .mobile-nav{
+        height: 0;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        transition: .8s ease-in;
+    }
+    .mobile-nav a{
+        text-decoration: none;
+    }
+    .display{
+        height: 40vh;
+        transition: .8s ease-in;
+    }
+    .hero-content .data-text{
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .cheap-class button{
+        margin-bottom: 40px;
+    }
+    .data-text .cheap-image img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-data{
+        flex-direction: column;
+        width: 100%;
+    }
+    .content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .content .content-text{
+        width: 80%;
+    }
+    .image img{
+        width: 100%;
+        padding: 0 40px;
+        margin-bottom: 20px;
+    }
+    .about-data{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-data .heading h3{
+        font-size: larger;
+        font-weight: 600;
+    }
+    .family-bundle{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .data-bundle h1{
+        font-size: larger;
+        font-weight: 700;
+    }
+    .data-bundle{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .network{
+        flex-direction: column;        
+    }
+    .net-foot{
+        flex-direction: column;
+        width: 100%;
+    }
+    .bus-page, .client{
+        width: 100%;
+    }
+    .contact-here .contact{
+        flex-direction: column;
+        width: 100%;
+    }
+    #address{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        width: 100%;
+    }
+}
